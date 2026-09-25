@@ -1,0 +1,233 @@
+{
+  "tool": {
+    "id": "escala-de-coma-de-glasgow",
+    "title": "Escala de Coma de Glasgow (com GCS-P)",
+    "short": "Nível de consciência e reatividade pupilar",
+    "desc": "Calcule a Escala de Coma de Glasgow pelos três componentes, com a gravidade do rebaixamento e o escore GCS-P (Glasgow menos a reatividade pupilar).",
+    "lead": "Quantifica o nível de consciência pela abertura ocular, resposta verbal e resposta motora. O GCS-P subtrai a reatividade pupilar e amplia a informação prognóstica no trauma cranioencefálico.",
+    "spec": [
+      "medicina-de-emergencia",
+      "medicina-intensiva",
+      "neurologia",
+      "neurocirurgia",
+      "cirurgia-geral"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "o",
+        "Abertura ocular (E)",
+        "sel",
+        {
+          "opts": {
+            "1": "1 · Ausente",
+            "2": "2 · À pressão",
+            "3": "3 · Ao som",
+            "4": "4 · Espontânea",
+            "nt": "NT · Não testável"
+          }
+        }
+      ],
+      [
+        "v",
+        "Resposta verbal (V)",
+        "sel",
+        {
+          "opts": {
+            "1": "1 · Ausente",
+            "2": "2 · Sons",
+            "3": "3 · Palavras",
+            "4": "4 · Confusa",
+            "5": "5 · Orientada",
+            "nt": "NT · Não testável (ex.: intubado)"
+          }
+        }
+      ],
+      [
+        "m",
+        "Melhor resposta motora (M)",
+        "sel",
+        {
+          "opts": {
+            "1": "1 · Ausente",
+            "2": "2 · Extensão",
+            "3": "3 · Flexão anormal",
+            "4": "4 · Flexão normal",
+            "5": "5 · Localiza",
+            "6": "6 · Obedece a comandos",
+            "nt": "NT · Não testável"
+          }
+        }
+      ],
+      [
+        "p",
+        "Reatividade pupilar à luz",
+        "radio",
+        {
+          "opts": {
+            "0": "Ambas reagem",
+            "1": "Uma não reage",
+            "2": "Nenhuma reage",
+            "nt": "Não avaliável"
+          }
+        }
+      ]
+    ],
+    "formula": "<p><strong>Glasgow</strong> = abertura ocular (1 a 4) + resposta verbal (1 a 5) + resposta motora (1 a 6), de 3 a 15.</p><p><strong>GCS-P</strong> = Glasgow − escore de reatividade pupilar (0 = ambas reagem; 1 = uma não reage; 2 = nenhuma reage), de 1 a 15.</p><p>Estímulo de pressão padronizado (2014): pressão no leito ungueal, no trapézio ou na incisura supraorbitária.</p>",
+    "table": [
+      [
+        "Glasgow",
+        "Gravidade (classificação usual no TCE)"
+      ],
+      [
+        "13 a 15",
+        "Leve"
+      ],
+      [
+        "9 a 12",
+        "Moderada"
+      ],
+      [
+        "3 a 8",
+        "Grave"
+      ]
+    ],
+    "table_note": "No GCS-P, a mortalidade e o mau desfecho em 6 meses aumentam progressivamente de 15 até 1 (Brennan, 2018).",
+    "tips": [
+      "Registre sempre os componentes (ex.: E2V3M5), não só a soma: o componente motor é o que mais carrega informação prognóstica.",
+      "Use a <strong>melhor</strong> resposta motora de qualquer membro. Assimetria entre os lados sugere lesão focal e deve ser descrita à parte.",
+      "Componente não testável (intubação, edema palpebral, afasia) é registrado como NT, e não como 1: somar 1 subestima o nível de consciência.",
+      "Avalie após reanimação e sem efeito de sedativos ou bloqueadores neuromusculares, quando possível; hipotensão, hipoxemia e intoxicação rebaixam o escore de forma reversível.",
+      "Uma queda de 2 ou mais pontos, ou de 1 ponto no componente motor, é deterioração clínica e pede reavaliação imediata (e, no TCE, nova tomografia)."
+    ],
+    "sources": [
+      [
+        "Teasdale G, Jennett B. Assessment of coma and impaired consciousness: a practical scale. Lancet, 1974.",
+        "https://doi.org/10.1016/S0140-6736(74)91639-0"
+      ],
+      [
+        "Brennan PM, Murray GD, Teasdale GM. Simplifying the use of prognostic information in traumatic brain injury. Part 1: The GCS-Pupils score: an extended index of clinical severity. J Neurosurg, 2018.",
+        "https://doi.org/10.3171/2017.12.JNS172780"
+      ],
+      [
+        "Teasdale G et al. The Glasgow Coma Scale at 40 years: standing the test of time. Lancet Neurol, 2014.",
+        "https://doi.org/10.1016/S1474-4422(14)70120-6"
+      ]
+    ],
+    "cases": [
+      [
+        "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        {
+          "o": "4",
+          "v": "5",
+          "m": "6",
+          "p": "0"
+        },
+        {
+          "raw": {
+            "gcs": 15,
+            "gcsp": 15
+          },
+          "level": "low",
+          "verdict": "leve"
+        }
+      ],
+      [
+        "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        {
+          "o": "3",
+          "v": "4",
+          "m": "5",
+          "p": "0"
+        },
+        {
+          "raw": {
+            "gcs": 12,
+            "gcsp": 12
+          },
+          "level": "mid",
+          "verdict": "moderada"
+        }
+      ],
+      [
+        "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        {
+          "o": "2",
+          "v": "2",
+          "m": "4",
+          "p": "1"
+        },
+        {
+          "raw": {
+            "gcs": 8,
+            "gcsp": 7
+          },
+          "level": "high",
+          "verdict": "grave"
+        }
+      ],
+      [
+        "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        {
+          "o": "1",
+          "v": "1",
+          "m": "1",
+          "p": "2"
+        },
+        {
+          "raw": {
+            "gcs": 3,
+            "gcsp": 1
+          },
+          "level": "high"
+        }
+      ],
+      [
+        "Intubado (V não testável): sem soma",
+        {
+          "o": "2",
+          "v": "nt",
+          "m": "5",
+          "p": "0"
+        },
+        {
+          "main": "E2 VNT M5",
+          "level": "mid",
+          "verdict": "não calculável"
+        }
+      ]
+    ],
+    "batch": "urgencia",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "urgencia",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/urgencia.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 5,
+      "passed": 5,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/urgencia.php",
+    "sha256": "b24f3a77383430c3f3463168e78e88341034b3108bd712f3613ae32672dc281c",
+    "bytes": 121059
+  },
+  "clinicalValidation": "not-performed"
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "label": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+    "input": {
+      "o": "4",
+      "v": "5",
+      "m": "6",
+      "p": "0"
+    },
+    "expected": {
+      "raw": {
+        "gcs": 15,
+        "gcsp": 15
+      },
+      "level": "low",
+      "verdict": "leve"
+    },
+    "originalInput": {
+      "o": "4",
+      "v": "5",
+      "m": "6",
+      "p": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+    "input": {
+      "o": "3",
+      "v": "4",
+      "m": "5",
+      "p": "0"
+    },
+    "expected": {
+      "raw": {
+        "gcs": 12,
+        "gcsp": 12
+      },
+      "level": "mid",
+      "verdict": "moderada"
+    },
+    "originalInput": {
+      "o": "3",
+      "v": "4",
+      "m": "5",
+      "p": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+    "input": {
+      "o": "2",
+      "v": "2",
+      "m": "4",
+      "p": "1"
+    },
+    "expected": {
+      "raw": {
+        "gcs": 8,
+        "gcsp": 7
+      },
+      "level": "high",
+      "verdict": "grave"
+    },
+    "originalInput": {
+      "o": "2",
+      "v": "2",
+      "m": "4",
+      "p": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+    "input": {
+      "o": "1",
+      "v": "1",
+      "m": "1",
+      "p": "2"
+    },
+    "expected": {
+      "raw": {
+        "gcs": 3,
+        "gcsp": 1
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "o": "1",
+      "v": "1",
+      "m": "1",
+      "p": "2"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Intubado (V não testável): sem soma",
+    "input": {
+      "o": "2",
+      "v": "nt",
+      "m": "5",
+      "p": "0"
+    },
+    "expected": {
+      "main": "E2 VNT M5",
+      "level": "mid",
+      "verdict": "não calculável"
+    },
+    "originalInput": {
+      "o": "2",
+      "v": "nt",
+      "m": "5",
+      "p": "0"
+    },
+    "expandedZeroOptions": []
+  }
+]
