@@ -1,11 +1,11 @@
-/* tool-escala-de-coma-de-glasgow · Elucenia · https://github.com/Elucenia/tool-escala-de-coma-de-glasgow
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-escala-de-coma-de-glasgow · ELUCENIA · https://github.com/Elucenia/tool-escala-de-coma-de-glasgow
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"escala-de-coma-de-glasgow","title":"Escala de Coma de Glasgow (com GCS-P)","fields":[["o","Abertura ocular (E)","sel",{"opts":{"1":"1 · Ausente","2":"2 · À pressão","3":"3 · Ao som","4":"4 · Espontânea","nt":"NT · Não testável"}}],["v","Resposta verbal (V)","sel",{"opts":{"1":"1 · Ausente","2":"2 · Sons","3":"3 · Palavras","4":"4 · Confusa","5":"5 · Orientada","nt":"NT · Não testável (ex.: intubado)"}}],["m","Melhor resposta motora (M)","sel",{"opts":{"1":"1 · Ausente","2":"2 · Extensão","3":"3 · Flexão anormal","4":"4 · Flexão normal","5":"5 · Localiza","6":"6 · Obedece a comandos","nt":"NT · Não testável"}}],["p","Reatividade pupilar à luz","radio",{"opts":{"0":"Ambas reagem","1":"Uma não reage","2":"Nenhuma reage","nt":"Não avaliável"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};

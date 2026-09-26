@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-escala-de-coma-de-glasgow",
   "version": "0.1.0",
-  "description": "Escala de Coma de Glasgow (com GCS-P) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Escala de Coma de Glasgow (com GCS-P) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
