@@ -1,0 +1,1151 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "escala-de-coma-de-glasgow",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/escala-de-coma-de-glasgow/calculator.js",
+    "sha256": "2f6ad53c6732550f29b4e8f4e717a8e04468e190d95d12850a917dacfca0c757",
+    "bytes": 5780
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 5,
+    "replayed": 5,
+    "passed": 5,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "escala-de-coma-de-glasgow",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+      "originalInput": {
+        "o": "4",
+        "v": "5",
+        "m": "6",
+        "p": "0"
+      },
+      "input": {
+        "o": "4",
+        "v": "5",
+        "m": "6",
+        "p": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "gcs": 15,
+          "gcsp": 15
+        },
+        "level": "low",
+        "verdict": "leve"
+      },
+      "recordedResult": {
+        "main": [
+          "15",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "raw": {
+          "gcs": 15,
+          "score": 15,
+          "gcsp": 15
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "o": "4",
+            "v": "5",
+            "m": "6",
+            "p": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+          "startedAt": "2026-10-05T17:37:00.209Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-coma-de-glasgow",
+              "main": [
+                "15",
+                "de 15"
+              ],
+              "label": "Escala de Coma de Glasgow",
+              "raw": {
+                "gcs": 15,
+                "score": 15,
+                "gcsp": 15
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "b4c668f403efd91b83bdadd4801129945ccb31a90fb65e33ade6b92500368497",
+          "bytes": 178,
+          "elapsedMs": 3.422500000000582
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "startedAt": "2026-10-05T17:37:00.209Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-coma-de-glasgow",
+            "main": [
+              "15",
+              "de 15"
+            ],
+            "label": "Escala de Coma de Glasgow",
+            "raw": {
+              "gcs": 15,
+              "score": 15,
+              "gcsp": 15
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "b4c668f403efd91b83bdadd4801129945ccb31a90fb65e33ade6b92500368497",
+        "bytes": 178,
+        "elapsedMs": 3.422500000000582
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.gcs",
+            "expected": 15,
+            "obtained": 15,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.gcsp",
+            "expected": 15,
+            "obtained": 15,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.gcs",
+            "expected": 15,
+            "obtained": 15,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 15,
+            "obtained": 15,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.gcsp",
+            "expected": 15,
+            "obtained": 15,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "15",
+            "obtained": "15",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 15",
+            "obtained": "de 15",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-de-coma-de-glasgow",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+      "originalInput": {
+        "o": "3",
+        "v": "4",
+        "m": "5",
+        "p": "0"
+      },
+      "input": {
+        "o": "3",
+        "v": "4",
+        "m": "5",
+        "p": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "gcs": 12,
+          "gcsp": 12
+        },
+        "level": "mid",
+        "verdict": "moderada"
+      },
+      "recordedResult": {
+        "main": [
+          "12",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "raw": {
+          "gcs": 12,
+          "score": 12,
+          "gcsp": 12
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "o": "3",
+            "v": "4",
+            "m": "5",
+            "p": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+          "startedAt": "2026-10-05T17:37:00.522Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-coma-de-glasgow",
+              "main": [
+                "12",
+                "de 15"
+              ],
+              "label": "Escala de Coma de Glasgow",
+              "raw": {
+                "gcs": 12,
+                "score": 12,
+                "gcsp": 12
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "423eaea0e9b6373d7c006c75b91fd3b58a14e79ea2f7bde4f9f751a468fc777f",
+          "bytes": 178,
+          "elapsedMs": 3.334500000011758
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "startedAt": "2026-10-05T17:37:00.522Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-coma-de-glasgow",
+            "main": [
+              "12",
+              "de 15"
+            ],
+            "label": "Escala de Coma de Glasgow",
+            "raw": {
+              "gcs": 12,
+              "score": 12,
+              "gcsp": 12
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "423eaea0e9b6373d7c006c75b91fd3b58a14e79ea2f7bde4f9f751a468fc777f",
+        "bytes": 178,
+        "elapsedMs": 3.334500000011758
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.gcs",
+            "expected": 12,
+            "obtained": 12,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.gcsp",
+            "expected": 12,
+            "obtained": 12,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.gcs",
+            "expected": 12,
+            "obtained": 12,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 12,
+            "obtained": 12,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.gcsp",
+            "expected": 12,
+            "obtained": 12,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "12",
+            "obtained": "12",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 15",
+            "obtained": "de 15",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-de-coma-de-glasgow",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+      "originalInput": {
+        "o": "2",
+        "v": "2",
+        "m": "4",
+        "p": "1"
+      },
+      "input": {
+        "o": "2",
+        "v": "2",
+        "m": "4",
+        "p": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "gcs": 8,
+          "gcsp": 7
+        },
+        "level": "high",
+        "verdict": "grave"
+      },
+      "recordedResult": {
+        "main": [
+          "8",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "raw": {
+          "gcs": 8,
+          "score": 8,
+          "gcsp": 7
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "o": "2",
+            "v": "2",
+            "m": "4",
+            "p": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+          "startedAt": "2026-10-05T17:37:00.836Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-coma-de-glasgow",
+              "main": [
+                "8",
+                "de 15"
+              ],
+              "label": "Escala de Coma de Glasgow",
+              "raw": {
+                "gcs": 8,
+                "score": 8,
+                "gcsp": 7
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "1a00218bcf699166d1342b5baa310ddfda86e750403f2c2fccd32256bc2e1c24",
+          "bytes": 174,
+          "elapsedMs": 6.966199999995297
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "startedAt": "2026-10-05T17:37:00.836Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-coma-de-glasgow",
+            "main": [
+              "8",
+              "de 15"
+            ],
+            "label": "Escala de Coma de Glasgow",
+            "raw": {
+              "gcs": 8,
+              "score": 8,
+              "gcsp": 7
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "1a00218bcf699166d1342b5baa310ddfda86e750403f2c2fccd32256bc2e1c24",
+        "bytes": 174,
+        "elapsedMs": 6.966199999995297
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.gcs",
+            "expected": 8,
+            "obtained": 8,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.gcsp",
+            "expected": 7,
+            "obtained": 7,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.gcs",
+            "expected": 8,
+            "obtained": 8,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 8,
+            "obtained": 8,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.gcsp",
+            "expected": 7,
+            "obtained": 7,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "8",
+            "obtained": "8",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 15",
+            "obtained": "de 15",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-de-coma-de-glasgow",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+      "originalInput": {
+        "o": "1",
+        "v": "1",
+        "m": "1",
+        "p": "2"
+      },
+      "input": {
+        "o": "1",
+        "v": "1",
+        "m": "1",
+        "p": "2"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "gcs": 3,
+          "gcsp": 1
+        },
+        "level": "high"
+      },
+      "recordedResult": {
+        "main": [
+          "3",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "raw": {
+          "gcs": 3,
+          "score": 3,
+          "gcsp": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "o": "1",
+            "v": "1",
+            "m": "1",
+            "p": "2"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+          "startedAt": "2026-10-05T17:37:01.149Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-coma-de-glasgow",
+              "main": [
+                "3",
+                "de 15"
+              ],
+              "label": "Escala de Coma de Glasgow",
+              "raw": {
+                "gcs": 3,
+                "score": 3,
+                "gcsp": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "a7e69bcffc5f5e3f070fdb2dfd1ea974f862e4709f4e72f0461e5cc86caed637",
+          "bytes": 174,
+          "elapsedMs": 2.5354000000079395
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "startedAt": "2026-10-05T17:37:01.149Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-coma-de-glasgow",
+            "main": [
+              "3",
+              "de 15"
+            ],
+            "label": "Escala de Coma de Glasgow",
+            "raw": {
+              "gcs": 3,
+              "score": 3,
+              "gcsp": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "a7e69bcffc5f5e3f070fdb2dfd1ea974f862e4709f4e72f0461e5cc86caed637",
+        "bytes": 174,
+        "elapsedMs": 2.5354000000079395
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.gcs",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.gcsp",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.gcs",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.score",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.gcsp",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "3",
+            "obtained": "3",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "de 15",
+            "obtained": "de 15",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "escala-de-coma-de-glasgow",
+      "kind": "native-source-reference",
+      "index": 4,
+      "name": "Intubado (V não testável): sem soma",
+      "originalInput": {
+        "o": "2",
+        "v": "nt",
+        "m": "5",
+        "p": "0"
+      },
+      "input": {
+        "o": "2",
+        "v": "nt",
+        "m": "5",
+        "p": "0"
+      },
+      "amendments": [],
+      "expected": {
+        "main": "E2 VNT M5",
+        "level": "mid",
+        "verdict": "não calculável"
+      },
+      "recordedResult": {
+        "main": [
+          "E2 VNT M5",
+          ""
+        ],
+        "label": "Glasgow por componentes",
+        "raw": {
+          "nt": 1
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "o": "2",
+            "v": "nt",
+            "m": "5",
+            "p": "0"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+          "startedAt": "2026-10-05T17:37:01.464Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "escala-de-coma-de-glasgow",
+              "main": [
+                "E2 VNT M5",
+                ""
+              ],
+              "label": "Glasgow por componentes",
+              "raw": {
+                "nt": 1
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "11f899593a2cd19ef8306a43e264ed5923f80bc6cf02a69e4e3cacd9a4a18cb2",
+          "bytes": 155,
+          "elapsedMs": 3.05460000000312
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/escala-de-coma-de-glasgow/calculate",
+        "startedAt": "2026-10-05T17:37:01.464Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "escala-de-coma-de-glasgow",
+            "main": [
+              "E2 VNT M5",
+              ""
+            ],
+            "label": "Glasgow por componentes",
+            "raw": {
+              "nt": 1
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "11f899593a2cd19ef8306a43e264ed5923f80bc6cf02a69e4e3cacd9a4a18cb2",
+        "bytes": 155,
+        "elapsedMs": 3.05460000000312
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "E2 VNT M5",
+            "obtained": "E2 VNT M5",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.nt",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "E2 VNT M5",
+            "obtained": "E2 VNT M5",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
