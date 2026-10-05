@@ -1,0 +1,88 @@
+{
+  "id": "escala-de-coma-de-glasgow",
+  "repository": "Elucenia/tool-escala-de-coma-de-glasgow",
+  "branch": "main",
+  "commit": "4e0c9c00780730aae1815f92cc64956bd04133b0",
+  "archiveSha256": "0db39063aaba720b66a65e1d45fc410c98332f59adcee15e13ed4c7ffbea87f5",
+  "protectedFiles": [
+    {
+      "path": ".gitattributes",
+      "type": "blob",
+      "mode": "100644",
+      "size": 19,
+      "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "type": "blob",
+      "mode": "100644",
+      "size": 279,
+      "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
+      "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+    },
+    {
+      "path": ".gitignore",
+      "type": "blob",
+      "mode": "100644",
+      "size": 42,
+      "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
+      "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
+    },
+    {
+      "path": "AUTHORSHIP.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 3347,
+      "sha": "ab08f0c10e7c671c3ee07b317eea0aacebb10c5d",
+      "sha256": "b2813843b24bea7d7d764cf0cc0608cbdd05b2ec3475c655397efe1910db5ec9"
+    },
+    {
+      "path": "CITATION.cff",
+      "type": "blob",
+      "mode": "100644",
+      "size": 954,
+      "sha": "c3f82da819c5c6003bfdbb82e5c6408d5b8e94d5",
+      "sha256": "e7c30d21760d973f52321d7a9594a176c1ac3c7a4346b9a42379b352d4498517"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1476,
+      "sha": "0f547a87aeedfffb155d7282a8b8e99e0bede517",
+      "sha256": "8c21608093a4fcbbef7247427e6b50e9c12a35cd767efdc63e50ee7b39ca83eb"
+    },
+    {
+      "path": "LICENSE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 11358,
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "type": "blob",
+      "mode": "100644",
+      "size": 1665,
+      "sha": "1ed851ee1680efc730ae46157be04ce4003bcb63",
+      "sha256": "0dccd0fc28f5494728b11448a860e67540fef88fe72f838a82f16150a2752a81"
+    },
+    {
+      "path": "SECURITY.md",
+      "type": "blob",
+      "mode": "100644",
+      "size": 894,
+      "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
+      "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
+    }
+  ],
+  "receipt": {
+    "file": "reports/review-20261005-completion/native190-protected-remote-baseline-r1.json",
+    "bytes": 6066154,
+    "sha256": "ec8bac70e5a6eed7fb742c319c4e68344eea5713350fa16b9d9bf48e014a9a88"
+  },
+  "remoteCodeExecuted": false,
+  "freshBranchReadRequiredBeforePublication": true
+}

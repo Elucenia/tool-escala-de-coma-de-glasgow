@@ -1,0 +1,103 @@
+<!-- ELUCENIA technical documentation · escala-de-coma-de-glasgow · ja · no clinical/professional/rights approval -->
+
+# グラスゴー昏睡尺度（GCS-Pを含む）
+
+[条件・出典・許諾](https://elucenia.org/ja/tools/escala-de-coma-de-glasgow)
+
+## 使い方
+
+ポータルでツールを使用するか、ローカルHTTPサーバー経由でindex.htmlを開いてください。言語を選択し、項目を入力して計算してください。
+
+## 入力項目と単位
+
+### 開眼反応（E）
+
+`o`
+
+- `1` — 1 · なし
+- `2` — 2 · 圧刺激で開眼
+- `3` — 3 · 音刺激で開眼
+- `4` — 4 · 自発的
+- `nt` — NT · 評価不能
+
+### 言語反応（V）
+
+`v`
+
+- `1` — 1 · なし
+- `2` — 2 · 発声
+- `3` — 3 · 単語
+- `4` — 4 · 混乱した反応
+- `5` — 5 · 見当識あり
+- `nt` — NT · 評価不能（例：気管挿管）
+
+### 最良運動反応（M）
+
+`m`
+
+- `1` — 1 · なし
+- `2` — 2 · 伸展
+- `3` — 3 · 異常屈曲
+- `4` — 4 · 正常屈曲
+- `5` — 5 · 刺激部位に手を持っていく
+- `6` — 6 · 指示に従う
+- `nt` — NT · 評価不能
+
+### 瞳孔対光反射
+
+`p`
+
+- `0` — 両側とも反応
+- `1` — 片側が反応しない
+- `2` — 両側とも反応なし
+- `nt` — 評価不能
+
+## 方法の版
+
+GCS 3–15/Teasdale 1974、2014手順、GCS-P/Brennan 2018：瞳孔反応0–2を減算
+
+## 記載された計算式
+
+Glasgow = 開眼（1～4）+ 言語反応（1～5）+ 運動反応（1～6）、範囲3～15。
+
+GCS-P = Glasgow − 瞳孔反応スコア（0 = 両側反応、1 = 片側反応なし、2 = 両側反応なし）、範囲1～15。
+
+標準化された圧刺激（2014）：爪床、僧帽筋、眼窩上切痕への圧迫。
+
+## 限界・対象集団
+
+合計点に加えて、開眼、言語、運動の各反応を記述してください。GCS-Pは瞳孔反応性を差し引く2018年の拡張版で、頭部外傷のコホートで研究されました。スコアだけでは全ての予後因子を包含できません。評価が妨げられたり交絡したりする場合には、その版の説明を確認する必要があります。
+
+## 参考文献
+
+- [Teasdale G, Jennett B. Assessment of coma and impaired consciousness: a practical scale. Lancet, 1974.](https://doi.org/10.1016/S0140-6736(74)91639-0)
+
+- [Brennan PM, Murray GD, Teasdale GM. Simplifying the use of prognostic information in traumatic brain injury. Part 1: The GCS-Pupils score: an extended index of clinical severity. J Neurosurg, 2018.](https://doi.org/10.3171/2017.12.JNS172780)
+
+- [Teasdale G et al. The Glasgow Coma Scale at 40 years: standing the test of time. Lancet Neurol, 2014.](https://doi.org/10.1016/S1474-4422(14)70120-6)
+
+## 技術テストの再現
+
+このリポジトリのルートディレクトリでnode test.cjsを実行すると、記録された合成ケースを再実行できます。元の入力、期待結果、許容誤差は保持されています。技術テストは臨床的検証を意味しません。
+
+```sh
+node test.cjs
+```
+
+tool.jsonには出典、版、確認範囲が記録されています。examples.jsonには合成入力と期待結果が保持され、results.jsonには実際に得られた結果が記録されています。
+
+[記録・参考文献](../tool.json) · [JavaScriptコード](../calculator.js) · [参照ケース](../examples.json) · [results.json](../results.json)
+
+## 確認状況と使用条件
+
+独立した臨床レビューは実施されていません。
+
+このインターフェースは独自に作成した翻訳であり、公式版や認証済みの版ではありません。独立した臨床レビュー、専門家による言語レビュー、評価尺度等の権利許諾の確認は実施されていません。
+
+式または分類の結果です。解釈、対応、適用可能性は専門家による評価と選択した出典に依存します。
+
+## ライセンスと帰属表示
+
+Apache-2.0はELUCENIAのコードにのみ適用されます。評価尺度等、出版物、翻訳、データの権利は、それぞれの権利者に帰属します。LICENSEとNOTICEを保持してください。
+
+ELUCENIA · Felipe Guedes · Copyright © 2026

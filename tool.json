@@ -5,6 +5,7 @@
     "short": "Nível de consciência e reatividade pupilar",
     "desc": "Calcule a Escala de Coma de Glasgow pelos três componentes, com a gravidade do rebaixamento e o escore GCS-P (Glasgow menos a reatividade pupilar).",
     "lead": "Quantifica o nível de consciência pela abertura ocular, resposta verbal e resposta motora. O GCS-P subtrai a reatividade pupilar e amplia a informação prognóstica no trauma cranioencefálico.",
+    "kind": "Calculadora",
     "spec": [
       "medicina-de-emergencia",
       "medicina-intensiva",
@@ -12,7 +13,6 @@
       "neurocirurgia",
       "cirurgia-geral"
     ],
-    "tier": 1,
     "fields": [
       [
         "o",
@@ -74,32 +74,6 @@
       ]
     ],
     "formula": "<p><strong>Glasgow</strong> = abertura ocular (1 a 4) + resposta verbal (1 a 5) + resposta motora (1 a 6), de 3 a 15.</p><p><strong>GCS-P</strong> = Glasgow − escore de reatividade pupilar (0 = ambas reagem; 1 = uma não reage; 2 = nenhuma reage), de 1 a 15.</p><p>Estímulo de pressão padronizado (2014): pressão no leito ungueal, no trapézio ou na incisura supraorbitária.</p>",
-    "table": [
-      [
-        "Glasgow",
-        "Gravidade (classificação usual no TCE)"
-      ],
-      [
-        "13 a 15",
-        "Leve"
-      ],
-      [
-        "9 a 12",
-        "Moderada"
-      ],
-      [
-        "3 a 8",
-        "Grave"
-      ]
-    ],
-    "table_note": "No GCS-P, a mortalidade e o mau desfecho em 6 meses aumentam progressivamente de 15 até 1 (Brennan, 2018).",
-    "tips": [
-      "Registre sempre os componentes (ex.: E2V3M5), não só a soma: o componente motor é o que mais carrega informação prognóstica.",
-      "Use a <strong>melhor</strong> resposta motora de qualquer membro. Assimetria entre os lados sugere lesão focal e deve ser descrita à parte.",
-      "Componente não testável (intubação, edema palpebral, afasia) é registrado como NT, e não como 1: somar 1 subestima o nível de consciência.",
-      "Avalie após reanimação e sem efeito de sedativos ou bloqueadores neuromusculares, quando possível; hipotensão, hipoxemia e intoxicação rebaixam o escore de forma reversível.",
-      "Uma queda de 2 ou mais pontos, ou de 1 ponto no componente motor, é deterioração clínica e pede reavaliação imediata (e, no TCE, nova tomografia)."
-    ],
     "sources": [
       [
         "Teasdale G, Jennett B. Assessment of coma and impaired consciousness: a practical scale. Lancet, 1974.",
@@ -197,9 +171,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -208,17 +179,193 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-03T18:32:58.690Z",
+      "total": 364,
+      "passed": 364,
+      "evidencePath": "reports/review-20261003/native-score-source-oracles.json",
+      "scope": "Eye 1–4, verbal 1–5, motor 1–6; pupils 0–2 subtracted for GCS-P. All 360 fully assessed combinations and untestable components; no imputed total.",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "GCS 3–15/Teasdale 1974, procedimento 2014; GCSP/Brennan 2018:subtrair reatividade pupilar 0–2",
+    "implementationVersion": "escala-de-coma-de-glasgow@native-2026-10-03+2f6ad53c6732",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/4136544/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Glasgow = abertura ocular (1 a 4) + resposta verbal (1 a 5) + resposta motora (1 a 6), de 3 a 15. GCS-P = Glasgow − escore de reatividade pupilar (0 = ambas reagem; 1 = uma não reage; 2 = nenhuma reage), de 1 a 15. Estímulo de pressão padronizado (2014): pressão no leito ungueal, no trapézio ou na incisura supraorbitária.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "o",
+            "label": "Abertura ocular (E)",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "1": "1 · Ausente",
+              "2": "2 · À pressão",
+              "3": "3 · Ao som",
+              "4": "4 · Espontânea",
+              "nt": "NT · Não testável"
+            }
+          },
+          {
+            "key": "v",
+            "label": "Resposta verbal (V)",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "1": "1 · Ausente",
+              "2": "2 · Sons",
+              "3": "3 · Palavras",
+              "4": "4 · Confusa",
+              "5": "5 · Orientada",
+              "nt": "NT · Não testável (ex.: intubado)"
+            }
+          },
+          {
+            "key": "m",
+            "label": "Melhor resposta motora (M)",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "1": "1 · Ausente",
+              "2": "2 · Extensão",
+              "3": "3 · Flexão anormal",
+              "4": "4 · Flexão normal",
+              "5": "5 · Localiza",
+              "6": "6 · Obedece a comandos",
+              "nt": "NT · Não testável"
+            }
+          },
+          {
+            "key": "p",
+            "label": "Reatividade pupilar à luz",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ambas reagem",
+              "1": "Uma não reage",
+              "2": "Nenhuma reage",
+              "nt": "Não avaliável"
+            }
+          }
+        ],
+        "hash": "f65a4cc01c39d6db320831e4e6781fc80fe36eb8d4948982ca5c846479e25c33"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Teasdale G, Jennett B. Assessment of coma and impaired consciousness: a practical scale. Lancet, 1974.",
+          "url": "https://doi.org/10.1016/S0140-6736(74)91639-0",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Assessment of coma and impaired consciousness. A practical scale.",
+            "year": "1974",
+            "firstPublicationDate": "1974-07-01",
+            "doi": "10.1016/s0140-6736(74)91639-0",
+            "pmid": "4136544",
+            "journal": "Lancet (London, England)",
+            "authors": "Teasdale G, Jennett B."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/4136544/",
+          "abstractAvailable": false,
+          "fullTextSha256": null,
+          "abstractSha256": null,
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Brennan PM, Murray GD, Teasdale GM. Simplifying the use of prognostic information in traumatic brain injury. Part 1: The GCS-Pupils score: an extended index of clinical severity. J Neurosurg, 2018.",
+          "url": "https://doi.org/10.3171/2017.12.JNS172780",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Simplifying the use of prognostic information in traumatic brain injury. Part 1: The GCS-Pupils score: an extended index of clinical severity.",
+            "year": "2018",
+            "firstPublicationDate": "2018-04-10",
+            "doi": "10.3171/2017.12.jns172780",
+            "pmid": "29631516",
+            "journal": "Journal of neurosurgery",
+            "authors": "Brennan PM, Murray GD, Teasdale GM."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/29631516/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "2defe20bb49458351a14194c9ebdb6a2ad592772191438c38ba943cf057551d4",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Teasdale G et al. The Glasgow Coma Scale at 40 years: standing the test of time. Lancet Neurol, 2014.",
+          "url": "https://doi.org/10.1016/S1474-4422(14)70120-6",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The Glasgow Coma Scale at 40 years: standing the test of time.",
+            "year": "2014",
+            "firstPublicationDate": "2014-08-01",
+            "doi": "10.1016/s1474-4422(14)70120-6",
+            "pmid": "25030516",
+            "journal": "The Lancet. Neurology",
+            "authors": "Teasdale G, Maas A, Lecky F, Manley G, Stocchetti N, Murray G."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/25030516/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "487c0c771f85d6f04b4e355238b2b7d37df19bbd13a0617480bb61ea938fd704",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-03T18:32:58.690Z",
+        "total": 364,
+        "passed": 364,
+        "evidencePath": "reports/review-20261003/native-score-source-oracles.json",
+        "scope": "Eye 1–4, verbal 1–5, motor 1–6; pupils 0–2 subtracted for GCS-P. All 360 fully assessed combinations and untestable components; no imputed total."
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "2f6ad53c6732550f29b4e8f4e717a8e04468e190d95d12850a917dacfca0c757"
+    },
+    "limits": "Descreva as respostas ocular, verbal e motora, além do total. O GCS-P é a extensão de 2018 que subtrai a reatividade pupilar, estudada em coortes de TCE. A pontuação isolada não reúne todos os fatores de prognóstico; avaliações impedidas ou confundidas exigem conferência das instruções da edição.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.835Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Confundidores, regras “não testável” e estímulos padronizados não foram auditados integralmente pela fonte de 1974, sem resumo."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/escala-de-coma-de-glasgow/calculator.js",
+    "bytes": 5780,
+    "sha256": "2f6ad53c6732550f29b4e8f4e717a8e04468e190d95d12850a917dacfca0c757"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "b205f4c658649ea43afedd084261e21f717baf69292573331d83a9f005633657",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 364,
+      "sha256": "814963422224be7f48ff547be81305e65d796478df84d91fc57f60cb1d05eada",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
