@@ -101,3 +101,58 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Mild severity (13 to 15)
+
+| Result details | |
+| --- | --- |
+| Components | E4 V5 M6 |
+| GCS-P (Glasgow − pupillary reactivity) | 15 (from 1 to 15) |
+
+
+### 2
+
+Moderate severity (9 to 12)
+
+| Result details | |
+| --- | --- |
+| Components | E3 V4 M5 |
+| GCS-P (Glasgow − pupillary reactivity) | 12 (from 1 to 15) |
+
+
+### 3
+
+Severe severity (3 to 8)
+
+| Result details | |
+| --- | --- |
+| Components | E2 V2 M4 |
+| GCS-P (Glasgow − pupillary reactivity) | 7 (from 1 to 15) |
+
+Glasgow ≤ 8: assess the need for a definitive airway.
+
+
+### 4
+
+Severe severity (3 to 8)
+
+| Result details | |
+| --- | --- |
+| Components | E1 V1 M1 |
+| GCS-P (Glasgow − pupillary reactivity) | 1 (from 1 to 15) |
+
+Glasgow ≤ 8: assess the need for a definitive airway.
+
+
+### 5
+
+Total score cannot be calculated: record and report the components
+
+With one untestable component (e.g., swollen eyes, intubation), the sum underestimates severity. Describe each component separately.
+

@@ -101,3 +101,58 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Geringe Schwere (13 bis 15)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Komponenten | E4 V5 M6 |
+| GCS-P (Glasgow − Pupillenreaktivität) | 15 (von 1 bis 15) |
+
+
+### 2
+
+Mäßige Schwere (9 bis 12)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Komponenten | E3 V4 M5 |
+| GCS-P (Glasgow − Pupillenreaktivität) | 12 (von 1 bis 15) |
+
+
+### 3
+
+Schwere Ausprägung (3 bis 8)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Komponenten | E2 V2 M4 |
+| GCS-P (Glasgow − Pupillenreaktivität) | 7 (von 1 bis 15) |
+
+Glasgow ≤ 8: Bedarf an einem definitiven Atemweg beurteilen.
+
+
+### 4
+
+Schwere Ausprägung (3 bis 8)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Komponenten | E1 V1 M1 |
+| GCS-P (Glasgow − Pupillenreaktivität) | 1 (von 1 bis 15) |
+
+Glasgow ≤ 8: Bedarf an einem definitiven Atemweg beurteilen.
+
+
+### 5
+
+Gesamtscore nicht berechenbar: Komponenten dokumentieren und mitteilen
+
+Bei einer nicht testbaren Komponente (z. B. geschwollene Augen, Intubation) unterschätzt die Summe die Schwere. Beschreiben Sie jede Komponente separat.
+

@@ -1,0 +1,2145 @@
+{
+  "id": "escala-de-coma-de-glasgow",
+  "implementationVersion": "escala-de-coma-de-glasgow@native-2026-10-05+4b463c41305a",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componentes",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reatividade pupilar)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "15 (de 1 a 15)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravidade leve (13 a 15)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componentes",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reatividade pupilar)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "12 (de 1 a 15)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravidade moderada (9 a 12)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componentes",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reatividade pupilar)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "7 (de 1 a 15)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravidade grave (3 a 8)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: avalie a necessidade de via aérea definitiva.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componentes",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reatividade pupilar)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1 (de 1 a 15)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravidade grave (3 a 8)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: avalie a necessidade de via aérea definitiva.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Escore total não calculável: registre e comunique os componentes",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Com um componente não testável (ex.: olhos edemaciados, intubação), a soma subestima a gravidade. Descreva cada componente separadamente.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Components",
+                "locale": "en",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "en",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − pupillary reactivity)",
+                "locale": "en",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "15 (from 1 to 15)",
+                "locale": "en",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Mild severity (13 to 15)",
+            "locale": "en",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Components",
+                "locale": "en",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "en",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − pupillary reactivity)",
+                "locale": "en",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "12 (from 1 to 15)",
+                "locale": "en",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Moderate severity (9 to 12)",
+            "locale": "en",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Components",
+                "locale": "en",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "en",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − pupillary reactivity)",
+                "locale": "en",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "7 (from 1 to 15)",
+                "locale": "en",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Severe severity (3 to 8)",
+            "locale": "en",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: assess the need for a definitive airway.",
+            "locale": "en",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Components",
+                "locale": "en",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "en",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − pupillary reactivity)",
+                "locale": "en",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "1 (from 1 to 15)",
+                "locale": "en",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Severe severity (3 to 8)",
+            "locale": "en",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: assess the need for a definitive airway.",
+            "locale": "en",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Total score cannot be calculated: record and report the components",
+            "locale": "en",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "With one untestable component (e.g., swollen eyes, intubation), the sum underestimates severity. Describe each component separately.",
+            "locale": "en",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componentes",
+                "locale": "es",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "es",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reactividad pupilar)",
+                "locale": "es",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "15 (de 1 a 15)",
+                "locale": "es",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravedad leve (13 a 15)",
+            "locale": "es",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componentes",
+                "locale": "es",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "es",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reactividad pupilar)",
+                "locale": "es",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "12 (de 1 a 15)",
+                "locale": "es",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravedad moderada (9 a 12)",
+            "locale": "es",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componentes",
+                "locale": "es",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "es",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reactividad pupilar)",
+                "locale": "es",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "7 (de 1 a 15)",
+                "locale": "es",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravedad grave (3 a 8)",
+            "locale": "es",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: evalúe la necesidad de una vía aérea definitiva.",
+            "locale": "es",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componentes",
+                "locale": "es",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "es",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reactividad pupilar)",
+                "locale": "es",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "1 (de 1 a 15)",
+                "locale": "es",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravedad grave (3 a 8)",
+            "locale": "es",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: evalúe la necesidad de una vía aérea definitiva.",
+            "locale": "es",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Puntuación total no calculable: registre y comunique los componentes",
+            "locale": "es",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "Con un componente no evaluable (p. ej., ojos edematizados, intubación), la suma subestima la gravedad. Describa cada componente por separado.",
+            "locale": "es",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Composants",
+                "locale": "fr",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "fr",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − réactivité pupillaire)",
+                "locale": "fr",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "15 (de 1 à 15)",
+                "locale": "fr",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravité légère (13 à 15)",
+            "locale": "fr",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Composants",
+                "locale": "fr",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "fr",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − réactivité pupillaire)",
+                "locale": "fr",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "12 (de 1 à 15)",
+                "locale": "fr",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravité modérée (9 à 12)",
+            "locale": "fr",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Composants",
+                "locale": "fr",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "fr",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − réactivité pupillaire)",
+                "locale": "fr",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "7 (de 1 à 15)",
+                "locale": "fr",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravité sévère (3 à 8)",
+            "locale": "fr",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8 : évaluer la nécessité d’une voie aérienne définitive.",
+            "locale": "fr",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Composants",
+                "locale": "fr",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "fr",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − réactivité pupillaire)",
+                "locale": "fr",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "1 (de 1 à 15)",
+                "locale": "fr",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravité sévère (3 à 8)",
+            "locale": "fr",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8 : évaluer la nécessité d’une voie aérienne définitive.",
+            "locale": "fr",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Score total non calculable : consignez et communiquez les composantes",
+            "locale": "fr",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "Avec un composant non testable (p. ex., yeux œdématiés, intubation), la somme sous-estime la gravité. Décrivez chaque composant séparément.",
+            "locale": "fr",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Komponenten",
+                "locale": "de",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "de",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − Pupillenreaktivität)",
+                "locale": "de",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "15 (von 1 bis 15)",
+                "locale": "de",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Geringe Schwere (13 bis 15)",
+            "locale": "de",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Komponenten",
+                "locale": "de",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "de",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − Pupillenreaktivität)",
+                "locale": "de",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "12 (von 1 bis 15)",
+                "locale": "de",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Mäßige Schwere (9 bis 12)",
+            "locale": "de",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Komponenten",
+                "locale": "de",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "de",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − Pupillenreaktivität)",
+                "locale": "de",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "7 (von 1 bis 15)",
+                "locale": "de",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Schwere Ausprägung (3 bis 8)",
+            "locale": "de",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: Bedarf an einem definitiven Atemweg beurteilen.",
+            "locale": "de",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Komponenten",
+                "locale": "de",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "de",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − Pupillenreaktivität)",
+                "locale": "de",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "1 (von 1 bis 15)",
+                "locale": "de",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Schwere Ausprägung (3 bis 8)",
+            "locale": "de",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: Bedarf an einem definitiven Atemweg beurteilen.",
+            "locale": "de",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Gesamtscore nicht berechenbar: Komponenten dokumentieren und mitteilen",
+            "locale": "de",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "Bei einer nicht testbaren Komponente (z. B. geschwollene Augen, Intubation) unterschätzt die Summe die Schwere. Beschreiben Sie jede Komponente separat.",
+            "locale": "de",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componenti",
+                "locale": "it",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "it",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reattività pupillare)",
+                "locale": "it",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "15 (da 1 a 15)",
+                "locale": "it",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravità lieve (13 a 15)",
+            "locale": "it",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componenti",
+                "locale": "it",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "it",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reattività pupillare)",
+                "locale": "it",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "12 (da 1 a 15)",
+                "locale": "it",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravità moderata (9 a 12)",
+            "locale": "it",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componenti",
+                "locale": "it",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "it",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reattività pupillare)",
+                "locale": "it",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "7 (da 1 a 15)",
+                "locale": "it",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravità grave (3 a 8)",
+            "locale": "it",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: valutare la necessità di una via aerea definitiva.",
+            "locale": "it",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Componenti",
+                "locale": "it",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "it",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (Glasgow − reattività pupillare)",
+                "locale": "it",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "1 (da 1 a 15)",
+                "locale": "it",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Gravità grave (3 a 8)",
+            "locale": "it",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "Glasgow ≤ 8: valutare la necessità di una via aerea definitiva.",
+            "locale": "it",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Punteggio totale non calcolabile: registrare e comunicare le componenti",
+            "locale": "it",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "Con una componente non testabile (ad es. occhi edematosi, intubazione), la somma sottostima la gravità. Descrivere ogni componente separatamente.",
+            "locale": "it",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "المكوّنات",
+                "locale": "ar",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E٤ V٥ M٦",
+                "locale": "ar",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (غلاسكو − تفاعلية الحدقة)",
+                "locale": "ar",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "١٥ (من 1 إلى 15)",
+                "locale": "ar",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "شدة خفيفة (13 إلى 15)",
+            "locale": "ar",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "المكوّنات",
+                "locale": "ar",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E٣ V٤ M٥",
+                "locale": "ar",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (غلاسكو − تفاعلية الحدقة)",
+                "locale": "ar",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "١٢ (من 1 إلى 15)",
+                "locale": "ar",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "شدة متوسطة (9 إلى 12)",
+            "locale": "ar",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "المكوّنات",
+                "locale": "ar",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E٢ V٢ M٤",
+                "locale": "ar",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (غلاسكو − تفاعلية الحدقة)",
+                "locale": "ar",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "٧ (من 1 إلى 15)",
+                "locale": "ar",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "شدة شديدة (3 إلى 8)",
+            "locale": "ar",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "غلاسكو ≤ 8: قيّم الحاجة إلى مجرى هوائي نهائي.",
+            "locale": "ar",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "المكوّنات",
+                "locale": "ar",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E١ V١ M١",
+                "locale": "ar",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (غلاسكو − تفاعلية الحدقة)",
+                "locale": "ar",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "١ (من 1 إلى 15)",
+                "locale": "ar",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "شدة شديدة (3 إلى 8)",
+            "locale": "ar",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "غلاسكو ≤ 8: قيّم الحاجة إلى مجرى هوائي نهائي.",
+            "locale": "ar",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "لا يمكن حساب الدرجة الكلية: سجّل المكونات وأبلغ عنها",
+            "locale": "ar",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "مع وجود مكوّن غير قابل للاختبار (مثل العينين المتوذمتين أو التنبيب)، فإن المجموع يقلل من تقدير الشدة. صف كل مكوّن على حدة.",
+            "locale": "ar",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "组成部分",
+                "locale": "zh",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "zh",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P（格拉斯哥 − 瞳孔反应性）",
+                "locale": "zh",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "15（1 到 15）",
+                "locale": "zh",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "轻度严重程度（13 至 15）",
+            "locale": "zh",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "组成部分",
+                "locale": "zh",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "zh",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P（格拉斯哥 − 瞳孔反应性）",
+                "locale": "zh",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "12（1 到 15）",
+                "locale": "zh",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "中度严重（9 到 12）",
+            "locale": "zh",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "组成部分",
+                "locale": "zh",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "zh",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P（格拉斯哥 − 瞳孔反应性）",
+                "locale": "zh",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "7（1 到 15）",
+                "locale": "zh",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "重度严重（3 到 8）",
+            "locale": "zh",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "格拉斯哥 ≤ 8：评估是否需要建立确定性气道。",
+            "locale": "zh",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "组成部分",
+                "locale": "zh",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "zh",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P（格拉斯哥 − 瞳孔反应性）",
+                "locale": "zh",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "1（1 到 15）",
+                "locale": "zh",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "重度严重（3 到 8）",
+            "locale": "zh",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "格拉斯哥 ≤ 8：评估是否需要建立确定性气道。",
+            "locale": "zh",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "总分无法计算：记录并报告各组成部分",
+            "locale": "zh",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "若有一个不可测试的组成部分（例如，眼睑水肿、气管插管），总分会低估严重程度。请分别描述每个组成部分。",
+            "locale": "zh",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "構成要素",
+                "locale": "ja",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "ja",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P（グラスゴー − 瞳孔反応性）",
+                "locale": "ja",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "15（1から15）",
+                "locale": "ja",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "軽度（13〜15）",
+            "locale": "ja",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "構成要素",
+                "locale": "ja",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "ja",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P（グラスゴー − 瞳孔反応性）",
+                "locale": "ja",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "12（1から15）",
+                "locale": "ja",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "中等度の重症度（9～12）",
+            "locale": "ja",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "構成要素",
+                "locale": "ja",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "ja",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P（グラスゴー − 瞳孔反応性）",
+                "locale": "ja",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "7（1から15）",
+                "locale": "ja",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "重度の重症度（3～8）",
+            "locale": "ja",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "グラスゴー ≤ 8：確実な気道確保の必要性を評価する。",
+            "locale": "ja",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "構成要素",
+                "locale": "ja",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "ja",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P（グラスゴー − 瞳孔反応性）",
+                "locale": "ja",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "1（1から15）",
+                "locale": "ja",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "重度の重症度（3～8）",
+            "locale": "ja",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "グラスゴー ≤ 8：確実な気道確保の必要性を評価する。",
+            "locale": "ja",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "総合スコアは算出不能：各構成要素を記録し、報告する",
+            "locale": "ja",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "検査不能な構成要素がある場合（例：眼の浮腫、挿管）、合計は重症度を過小評価する。各構成要素を個別に記述する。",
+            "locale": "ja",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "घटक",
+                "locale": "hi",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E4 V5 M6",
+                "locale": "hi",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  4,
+                  5,
+                  6
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (ग्लासगो − पुतली प्रतिक्रियाशीलता)",
+                "locale": "hi",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "15 (1 से 15)",
+                "locale": "hi",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  15
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "हल्की गंभीरता (13 से 15)",
+            "locale": "hi",
+            "template": "documented-authored-59bb8e1a9477669340e1"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "घटक",
+                "locale": "hi",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E3 V4 M5",
+                "locale": "hi",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  3,
+                  4,
+                  5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (ग्लासगो − पुतली प्रतिक्रियाशीलता)",
+                "locale": "hi",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "12 (1 से 15)",
+                "locale": "hi",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  12
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "मध्यम गंभीरता (9 से 12)",
+            "locale": "hi",
+            "template": "documented-authored-611c849de9074bb21a2b"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "घटक",
+                "locale": "hi",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E2 V2 M4",
+                "locale": "hi",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  2,
+                  2,
+                  4
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (ग्लासगो − पुतली प्रतिक्रियाशीलता)",
+                "locale": "hi",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "7 (1 से 15)",
+                "locale": "hi",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  7
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "गंभीर गंभीरता (3 से 8)",
+            "locale": "hi",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "ग्लासगो ≤ 8: निश्चित वायुमार्ग की आवश्यकता का मूल्यांकन करें।",
+            "locale": "hi",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "घटक",
+                "locale": "hi",
+                "template": "documented-authored-52527e8c49918c38b727"
+              },
+              "value": {
+                "text": "E1 V1 M1",
+                "locale": "hi",
+                "template": "documented-authored-9b2586da885322c361d0",
+                "sourceNumbers": [
+                  1,
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "GCS-P (ग्लासगो − पुतली प्रतिक्रियाशीलता)",
+                "locale": "hi",
+                "template": "documented-authored-efe56ed463413e547917"
+              },
+              "value": {
+                "text": "1 (1 से 15)",
+                "locale": "hi",
+                "template": "documented-authored-3413528bbfc7ca316f6b",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "गंभीर गंभीरता (3 से 8)",
+            "locale": "hi",
+            "template": "documented-authored-17fa4f25d5c693e40d35"
+          },
+          "note": {
+            "text": "ग्लासगो ≤ 8: निश्चित वायुमार्ग की आवश्यकता का मूल्यांकन करें।",
+            "locale": "hi",
+            "template": "documented-authored-7109c1356a29b45cf0ce"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Intubado (V não testável): sem soma",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "कुल स्कोर की गणना नहीं की जा सकती: घटकों को दर्ज करें और रिपोर्ट करें",
+            "locale": "hi",
+            "template": "documented-authored-04f8b0e411f7a36bdbe2"
+          },
+          "note": {
+            "text": "एक अपरीक्षणीय घटक (जैसे, सूजी हुई आँखें, इंट्यूबेशन) होने पर, योग गंभीरता को कम आँकता है। प्रत्येक घटक का अलग-अलग वर्णन करें।",
+            "locale": "hi",
+            "template": "documented-authored-b7f4873b3ca5ee18fdd0"
+          },
+          "level": "mid"
+        }
+      }
+    ]
+  }
+}

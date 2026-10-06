@@ -101,3 +101,58 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Gravité légère (13 à 15)
+
+| Détails du résultat | |
+| --- | --- |
+| Composants | E4 V5 M6 |
+| GCS-P (Glasgow − réactivité pupillaire) | 15 (de 1 à 15) |
+
+
+### 2
+
+Gravité modérée (9 à 12)
+
+| Détails du résultat | |
+| --- | --- |
+| Composants | E3 V4 M5 |
+| GCS-P (Glasgow − réactivité pupillaire) | 12 (de 1 à 15) |
+
+
+### 3
+
+Gravité sévère (3 à 8)
+
+| Détails du résultat | |
+| --- | --- |
+| Composants | E2 V2 M4 |
+| GCS-P (Glasgow − réactivité pupillaire) | 7 (de 1 à 15) |
+
+Glasgow ≤ 8 : évaluer la nécessité d’une voie aérienne définitive.
+
+
+### 4
+
+Gravité sévère (3 à 8)
+
+| Détails du résultat | |
+| --- | --- |
+| Composants | E1 V1 M1 |
+| GCS-P (Glasgow − réactivité pupillaire) | 1 (de 1 à 15) |
+
+Glasgow ≤ 8 : évaluer la nécessité d’une voie aérienne définitive.
+
+
+### 5
+
+Score total non calculable : consignez et communiquez les composantes
+
+Avec un composant non testable (p. ex., yeux œdématiés, intubation), la somme sous-estime la gravité. Décrivez chaque composant séparément.
+

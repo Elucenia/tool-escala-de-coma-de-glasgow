@@ -188,7 +188,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "GCS 3–15/Teasdale 1974, procedimento 2014; GCSP/Brennan 2018:subtrair reatividade pupilar 0–2",
-    "implementationVersion": "escala-de-coma-de-glasgow@native-2026-10-03+2f6ad53c6732",
+    "implementationVersion": "escala-de-coma-de-glasgow@native-2026-10-05+4b463c41305a",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/4136544/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -335,7 +335,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "2f6ad53c6732550f29b4e8f4e717a8e04468e190d95d12850a917dacfca0c757"
+      "implementationHash": "4b463c41305a41cf39e21adeca8b1ecb75aa36c04f8cb0a17b44067393bb10b5",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "escala-de-coma-de-glasgow@native-2026-10-03+2f6ad53c6732",
+          "previousImplementationHash": "2f6ad53c6732550f29b4e8f4e717a8e04468e190d95d12850a917dacfca0c757",
+          "implementationHash": "4b463c41305a41cf39e21adeca8b1ecb75aa36c04f8cb0a17b44067393bb10b5",
+          "scientificBodySha256": "8084791effba578715b212c64b8cf6ad72b2e43ced26fbdf184ecf1ea1bab3a6",
+          "metadataContractHash": "f65a4cc01c39d6db320831e4e6781fc80fe36eb8d4948982ca5c846479e25c33",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Descreva as respostas ocular, verbal e motora, além do total. O GCS-P é a extensão de 2018 que subtrai a reatividade pupilar, estudada em coortes de TCE. A pontuação isolada não reúne todos os fatores de prognóstico; avaliações impedidas ou confundidas exigem conferência das instruções da edição.",
     "sourceLimitEvidence": {
@@ -354,15 +382,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/escala-de-coma-de-glasgow/calculator.js",
-    "bytes": 5780,
-    "sha256": "2f6ad53c6732550f29b4e8f4e717a8e04468e190d95d12850a917dacfca0c757"
+    "bytes": 5985,
+    "sha256": "4b463c41305a41cf39e21adeca8b1ecb75aa36c04f8cb0a17b44067393bb10b5"
   },
-  "sourceToolSha256": "b205f4c658649ea43afedd084261e21f717baf69292573331d83a9f005633657",
+  "sourceToolSha256": "5965b5c326c01780d6f6aaf6d82a66cd592b8f79e1e0a60bea0c10baf90467b3",
   "omittedFullReferenceBanks": [
     {
       "rows": 364,
       "sha256": "814963422224be7f48ff547be81305e65d796478df84d91fc57f60cb1d05eada",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

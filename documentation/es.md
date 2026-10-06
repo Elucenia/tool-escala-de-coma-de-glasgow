@@ -101,3 +101,58 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Gravedad leve (13 a 15)
+
+| Detalles del resultado | |
+| --- | --- |
+| Componentes | E4 V5 M6 |
+| GCS-P (Glasgow − reactividad pupilar) | 15 (de 1 a 15) |
+
+
+### 2
+
+Gravedad moderada (9 a 12)
+
+| Detalles del resultado | |
+| --- | --- |
+| Componentes | E3 V4 M5 |
+| GCS-P (Glasgow − reactividad pupilar) | 12 (de 1 a 15) |
+
+
+### 3
+
+Gravedad grave (3 a 8)
+
+| Detalles del resultado | |
+| --- | --- |
+| Componentes | E2 V2 M4 |
+| GCS-P (Glasgow − reactividad pupilar) | 7 (de 1 a 15) |
+
+Glasgow ≤ 8: evalúe la necesidad de una vía aérea definitiva.
+
+
+### 4
+
+Gravedad grave (3 a 8)
+
+| Detalles del resultado | |
+| --- | --- |
+| Componentes | E1 V1 M1 |
+| GCS-P (Glasgow − reactividad pupilar) | 1 (de 1 a 15) |
+
+Glasgow ≤ 8: evalúe la necesidad de una vía aérea definitiva.
+
+
+### 5
+
+Puntuación total no calculable: registre y comunique los componentes
+
+Con un componente no evaluable (p. ej., ojos edematizados, intubación), la suma subestima la gravedad. Describa cada componente por separado.
+

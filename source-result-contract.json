@@ -1,0 +1,352 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "escala-de-coma-de-glasgow",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "649c915e2c39e72538b1b36bdfd3bf9453d1016e",
+    "oldEngineSha256": "2f6ad53c6732550f29b4e8f4e717a8e04468e190d95d12850a917dacfca0c757",
+    "currentEngineSha256": "4b463c41305a41cf39e21adeca8b1ecb75aa36c04f8cb0a17b44067393bb10b5"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "E4 V5 M6, pupilas reagem: 15, GCS-P 15, leve",
+      "input": {
+        "o": "4",
+        "v": "5",
+        "m": "6",
+        "p": "0"
+      },
+      "publicOutput": {
+        "id": "escala-de-coma-de-glasgow",
+        "main": [
+          "15",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "raw": {
+          "gcs": 15,
+          "score": 15,
+          "gcsp": 15
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "gcs": 15,
+          "gcsp": 15
+        },
+        "level": "low",
+        "verdict": "leve"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "15",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "level": "low",
+        "verdict": "Gravidade leve (13 a 15)",
+        "rows": [
+          [
+            "Componentes",
+            "E4 V5 M6"
+          ],
+          [
+            "GCS-P (Glasgow − reatividade pupilar)",
+            "15 (de 1 a 15)"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "gcs": 15,
+          "score": 15,
+          "gcsp": 15
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "E3 V4 M5, pupilas reagem: 12, moderada (limite)",
+      "input": {
+        "o": "3",
+        "v": "4",
+        "m": "5",
+        "p": "0"
+      },
+      "publicOutput": {
+        "id": "escala-de-coma-de-glasgow",
+        "main": [
+          "12",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "raw": {
+          "gcs": 12,
+          "score": 12,
+          "gcsp": 12
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "gcs": 12,
+          "gcsp": 12
+        },
+        "level": "mid",
+        "verdict": "moderada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "12",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "level": "mid",
+        "verdict": "Gravidade moderada (9 a 12)",
+        "rows": [
+          [
+            "Componentes",
+            "E3 V4 M5"
+          ],
+          [
+            "GCS-P (Glasgow − reatividade pupilar)",
+            "12 (de 1 a 15)"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "gcs": 12,
+          "score": 12,
+          "gcsp": 12
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "E2 V2 M4, uma pupila não reage: 8, GCS-P 7, grave",
+      "input": {
+        "o": "2",
+        "v": "2",
+        "m": "4",
+        "p": "1"
+      },
+      "publicOutput": {
+        "id": "escala-de-coma-de-glasgow",
+        "main": [
+          "8",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "raw": {
+          "gcs": 8,
+          "score": 8,
+          "gcsp": 7
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "gcs": 8,
+          "gcsp": 7
+        },
+        "level": "high",
+        "verdict": "grave"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "8",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "level": "high",
+        "verdict": "Gravidade grave (3 a 8)",
+        "rows": [
+          [
+            "Componentes",
+            "E2 V2 M4"
+          ],
+          [
+            "GCS-P (Glasgow − reatividade pupilar)",
+            "7 (de 1 a 15)"
+          ]
+        ],
+        "note": "Glasgow ≤ 8: avalie a necessidade de via aérea definitiva.",
+        "raw": {
+          "gcs": 8,
+          "score": 8,
+          "gcsp": 7
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "E1 V1 M1, nenhuma pupila reage: 3, GCS-P 1",
+      "input": {
+        "o": "1",
+        "v": "1",
+        "m": "1",
+        "p": "2"
+      },
+      "publicOutput": {
+        "id": "escala-de-coma-de-glasgow",
+        "main": [
+          "3",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "raw": {
+          "gcs": 3,
+          "score": 3,
+          "gcsp": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "gcs": 3,
+          "gcsp": 1
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3",
+          "de 15"
+        ],
+        "label": "Escala de Coma de Glasgow",
+        "level": "high",
+        "verdict": "Gravidade grave (3 a 8)",
+        "rows": [
+          [
+            "Componentes",
+            "E1 V1 M1"
+          ],
+          [
+            "GCS-P (Glasgow − reatividade pupilar)",
+            "1 (de 1 a 15)"
+          ]
+        ],
+        "note": "Glasgow ≤ 8: avalie a necessidade de via aérea definitiva.",
+        "raw": {
+          "gcs": 3,
+          "score": 3,
+          "gcsp": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "Intubado (V não testável): sem soma",
+      "input": {
+        "o": "2",
+        "v": "nt",
+        "m": "5",
+        "p": "0"
+      },
+      "publicOutput": {
+        "id": "escala-de-coma-de-glasgow",
+        "main": [
+          "E2 VNT M5",
+          ""
+        ],
+        "label": "Glasgow por componentes",
+        "raw": {
+          "nt": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "main": "E2 VNT M5",
+        "level": "mid",
+        "verdict": "não calculável"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "E2 VNT M5",
+          ""
+        ],
+        "label": "Glasgow por componentes",
+        "level": "mid",
+        "verdict": "Escore total não calculável: registre e comunique os componentes",
+        "note": "Com um componente não testável (ex.: olhos edemaciados, intubação), a soma subestima a gravidade. Descreva cada componente separadamente.",
+        "raw": {
+          "nt": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}
